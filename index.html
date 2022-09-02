@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <a href="register.html">
+                <div class="register box">
+                    <h1 class="box_headline">Register</h1>
+                </div>
+            </a>
+            <a href="login.html">
+                <div class="login box">
+                    <h1 class="box_headline">Login</h1>
+                </div>
+            </a>
+        </div>
+        <button id="start-camera">Start Camera</button>
+        <video id="video" width="320" height="240" autoplay></video>
+        <button id="click-photo">Click Photo</button>
+        <canvas id="canvas" width="320" height="240"></canvas>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
