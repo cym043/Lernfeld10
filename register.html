@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <video id="video" width="320" height="240" autoplay></video>
+        <div class="button_container">
+            <button id="start-camera">Start Camera</button>
+            <button id="start-record">Capture Images</button>
+        </div>
+        <canvas id="canvas" width="320" height="240"></canvas>
+        <div class="formContainer">
+            <div class="form_container">
+                <label for="username">Your name:</label>
+                <input type="text" id="username" name="username">
+                <button id="send_data" onfocus="checkIfEntry();" onblur="checkIfEmpty();">Submit Registration</button>
+            </div>
+        </div>
+        <script src="./js/register.js"></script>
+    </body>
+</html>

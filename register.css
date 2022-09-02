@@ -1,0 +1,44 @@
+#start-record {
+    display: none;
+}
+
+#canvas {
+    display: none;
+}
+
+#video {
+    border-radius: 15px;
+    display: block;
+    margin:0 auto;
+}
+
+.button_container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 14px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_container {
+    padding-top: 20px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+}
+
+#send_data {
+    display: none;
+}

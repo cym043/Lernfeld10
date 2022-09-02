@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.box {
+    width: 40vh;
+    height: 40vh;
+    padding: 20px;
+    border-radius:15px;
+    background-color: aliceblue;
+    transition: box-shadow 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: 0px 4px 10px 0px rgba(000, 000, 000, 0.15);
+}
+
+.box_headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
