@@ -4,6 +4,9 @@ const path = require('path');
 const router = express.Router();
 const regsiterFunctions = require('./registerNewUser')
 
+app.use(express.static(path.join(__dirname , '..')));
+
+
 
 router.get('/',function(req,res){
   res.sendFile(path.join(__dirname,'..','/index.html'));
