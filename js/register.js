@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 let camera_button = document.querySelector("#start-camera");
 let start_button = document.querySelector('#start-record');
 let video = document.querySelector("#video");
@@ -67,6 +69,14 @@ submit_button.addEventListener('click', async function() {
         bilder: imgArray,
         username: username
     }
+
+    axios.post('register/newUser', data)
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
 
     console.log(data);
 });
